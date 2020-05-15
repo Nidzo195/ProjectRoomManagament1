@@ -12,6 +12,7 @@ using RoomManagament.Services.Extension;
 
 namespace ProjektRoomManagament
 {
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
