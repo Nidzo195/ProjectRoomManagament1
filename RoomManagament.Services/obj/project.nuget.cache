@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZdeAngXEdtPO6+NCNRtAviHSPm5affHKjnsc3STOp08mjJjiYTwxReOBkv10kGzomc6MJZbdN0KYR3WZaQHdQA==",
+  "dgSpecHash": "nXaxm5NT+sJmFGax1MkWqTMhTAmm7pEA79I9tJIYZLvF7eFEz2fWGKhWWv/H8uxJfS55jr/BsISwdgt3rWc+Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjektRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
+  "projectFilePath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikola Matovic\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nikola Matovic\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
