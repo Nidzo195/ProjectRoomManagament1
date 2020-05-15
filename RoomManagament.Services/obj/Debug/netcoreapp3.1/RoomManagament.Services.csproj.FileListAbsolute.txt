@@ -1,0 +1,12 @@
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\bin\Debug\netcoreapp3.1\RoomManagament.Services.deps.json
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\bin\Debug\netcoreapp3.1\RoomManagament.Services.dll
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.csprojAssemblyReference.cache
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.AssemblyInfoInputs.cache
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.AssemblyInfo.cs
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\bin\Debug\netcoreapp3.1\RoomManagament.Services.runtimeconfig.json
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\bin\Debug\netcoreapp3.1\RoomManagament.Services.runtimeconfig.dev.json
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.genruntimeconfig.cache
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\bin\Debug\netcoreapp3.1\RoomManagament.Services.pdb
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.dll
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.pdb
+C:\Users\Nikola Matovic\source\repos\ProjektRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.csproj.CoreCompileInputs.cache
