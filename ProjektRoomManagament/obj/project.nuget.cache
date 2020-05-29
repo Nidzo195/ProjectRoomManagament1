@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLKZzNa79KBLheDzpK70GKLde1FbMQ5H2firAnJdAMXa+/9A0yUDPhol7BI63sB2UETXftgXMuA9UoCZx4maPQ==",
+  "dgSpecHash": "PIqTGI0BqQlI6gAWaNrz18uhH/7HWc5TZcM22wemYh7ttciylpRw0JEK93re8uZlN8O0HEOUIDIsyG5cCA3Suw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
+  "projectFilePath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikola Matovic\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.4\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.4.nupkg.sha512",
     "C:\\Users\\Nikola Matovic\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

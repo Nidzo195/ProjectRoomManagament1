@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {}
+    "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
+    "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
         "projectName": "RoomManagament.Services",
-        "projectPath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
+        "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
         "packagesPath": "C:\\Users\\Nikola Matovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\obj\\",
+        "outputPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

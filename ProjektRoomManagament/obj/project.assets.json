@@ -8262,11 +8262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
+      "projectUniqueName": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
       "projectName": "ProjektRoomManagament",
-      "projectPath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
+      "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
       "packagesPath": "C:\\Users\\Nikola Matovic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\ProjektRoomManagament\\obj\\",
+      "outputPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8286,8 +8286,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
-              "projectPath": "C:\\Users\\Nikola Matovic\\Source\\Repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj"
+            "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
+              "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj"
             }
           }
         }
