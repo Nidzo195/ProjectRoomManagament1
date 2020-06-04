@@ -20,7 +20,10 @@ namespace ProjektRoomManagament
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseWebRoot("View");
                     webBuilder.UseStartup<Startup>();
                 });
+
+ 
     }
 }

@@ -49,6 +49,9 @@ namespace ProjektRoomManagament
 
             app.UseAuthorization();
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

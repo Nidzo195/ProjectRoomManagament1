@@ -258,3 +258,7 @@ C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\obj\Debug\netcoreapp3.1\ProjektRoomManagament.dll
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\obj\Debug\netcoreapp3.1\ProjektRoomManagament.pdb
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\obj\Debug\netcoreapp3.1\ProjektRoomManagament.genruntimeconfig.cache
+C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\bin\Debug\netcoreapp3.1\View\agbPage.html
+C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\bin\Debug\netcoreapp3.1\View\startPage.html
+C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\bin\Debug\netcoreapp3.1\View\RoomController.js
+C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\ProjektRoomManagament\bin\Debug\netcoreapp3.1\View\style.css
