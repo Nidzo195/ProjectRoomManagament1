@@ -12,6 +12,9 @@
 *.userosscache
 *.sln.docstates
 /obj
+/ProjektRoomManagament/bin
+/RoomManagament.Services/bin
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

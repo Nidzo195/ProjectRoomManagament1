@@ -21,3 +21,4 @@ C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\RoomManagament.Servic
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.dll
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.pdb
 C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.genruntimeconfig.cache
+C:\Users\Nikola Matovic\source\repos\ProjectRoomManagament\RoomManagament.Services\obj\Debug\netcoreapp3.1\RoomManagament.Services.csprojAssemblyReference.cache
