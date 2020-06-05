@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj": {}
+    "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\ProjektRoomManagament\\ProjektRoomManagament.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj": {
+    "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\ProjektRoomManagament\\ProjektRoomManagament.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
+        "projectUniqueName": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
         "projectName": "ProjektRoomManagament",
-        "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
-        "packagesPath": "C:\\Users\\Nikola Matovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\ProjektRoomManagament\\obj\\",
+        "projectPath": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\ProjektRoomManagament\\ProjektRoomManagament.csproj",
+        "packagesPath": "C:\\Users\\rfark\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\ProjektRoomManagament\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nikola Matovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\rfark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
-                "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj"
+              "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\RoomManagament.Services.csproj": {
+                "projectPath": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\RoomManagament.Services.csproj"
               }
             }
           }
@@ -79,26 +75,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj": {
+    "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\RoomManagament.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
+        "projectUniqueName": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\RoomManagament.Services.csproj",
         "projectName": "RoomManagament.Services",
-        "projectPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\RoomManagament.Services.csproj",
-        "packagesPath": "C:\\Users\\Nikola Matovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikola Matovic\\source\\repos\\ProjectRoomManagament\\RoomManagament.Services\\obj\\",
+        "projectPath": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\RoomManagament.Services.csproj",
+        "packagesPath": "C:\\Users\\rfark\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rfark\\Source\\Repos\\Nidzo195\\ProjectRoomManagament1\\RoomManagament.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nikola Matovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\rfark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -157,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

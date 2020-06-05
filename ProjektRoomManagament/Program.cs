@@ -23,7 +23,5 @@ namespace ProjektRoomManagament
                     webBuilder.UseWebRoot("View");
                     webBuilder.UseStartup<Startup>();
                 });
-
- 
     }
 }
