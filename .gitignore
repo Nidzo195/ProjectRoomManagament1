@@ -4,6 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+*.git
+*.vs
 *.rsuser
 *.suo
 *.user
@@ -156,6 +158,8 @@ AutoTest.Net/
 
 # Installshield output folder
 [Ee]xpress/
+/.vs
+/bin
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
