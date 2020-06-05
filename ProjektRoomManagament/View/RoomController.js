@@ -11,13 +11,11 @@
 
 
 $(document).ready(function () {
-    showMessage("empty", " ");
-
-    /**
+       /**
      * when opened --> sends data form server to view
      */
-    $("#loadRooms");
-
+    loadRooms();
+    alert("SALI");
 
 });
 
@@ -34,13 +32,11 @@ function loadRooms() {
         })
         .done(showRooms)
         .fail(function (xhr, status, errorThrown) {
-            $("#message").text("Fehler beim Lesen der Räume.    Response Text: "+ xhr.responseText +"  Status: "+status);
+           alert("Fehler beim Lesen der Räume.    Response Text: "+ xhr.responseText +"  Status: "+status);
         })
 }
 
 function showRooms(roomData) {
-    $("#message").val("");
-    $("#rooms > tbody").html("");
     var tableData = "";
     $.each(roomData, function (id, room) {
         tableData += "<tr>";
@@ -52,4 +48,5 @@ function showRooms(roomData) {
         tableData += "</tr>";
     });
     $("#rooms > tbody").html(tableData);
+    $("#roomName").html(room.raumName)
 }
