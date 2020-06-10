@@ -8,7 +8,6 @@
     width: 100%;
 }
 
-
 #title {
     color: #727478;
     margin-left: 20px;
@@ -49,7 +48,6 @@
         margin-right: 30px;
         padding: 14px;
         border: 1px solid #ccc;
-        position: absolute;
     }        
 }
 
@@ -58,10 +56,10 @@
     margin-right: 30px;
     margin-left: 30px;
     border: 3px solid #a8acb3;
-    width: 200px;
+    width: 30%;
 }
 
-.roomBox a {
+.roomBox a, .roomInfo a {
     float: left;
     display: block;
     color: #727478;
@@ -70,17 +68,38 @@
     font-size: 20px;
 }
 
-.roomBox .infoButton {
+#roomName {
+    font-size: 28px;
+}
+
+.roomInfo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#infoButton {
     border: 1px solid #ccc;
-    float: center;
     display: block;
-    text-align: left;
-    width: 50px;;
+    text-align: center;
+    width: 678%;
     background-color: #e6f2f5;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #727478;
-    margin-left: 140px;
+    margin: 5px;
+}
+
+#backButton {
+    border: 1px solid #ccc;
+    float: right;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #e6f2f5;
+    font-size: 15px;
+    text-decoration: none;
+    color: #727478;
+    margin-left: 30%;
 }
 
 #agb {
