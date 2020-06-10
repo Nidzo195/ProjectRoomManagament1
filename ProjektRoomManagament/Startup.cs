@@ -43,6 +43,13 @@ namespace ProjektRoomManagament
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
+            DefaultFilesOptions DefaultFile = new DefaultFilesOptions();
+            DefaultFile.DefaultFileNames.Clear();
+            DefaultFile.DefaultFileNames.Add("startPage.html");
+            app.UseDefaultFiles(DefaultFile);
+
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -58,6 +65,10 @@ namespace ProjektRoomManagament
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-        }
+
+
+
+
+    }
     }
 }

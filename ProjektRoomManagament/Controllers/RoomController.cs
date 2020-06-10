@@ -13,16 +13,31 @@ namespace ProjektRoomManagament.Controllers
     {
         private readonly IRoomService _roomService;
 
-        [HttpGet("ListAll")] //[HttpGet("GetAllKunde/{id}")] // api/Kunde/GetAllKunde
-        public IActionResult GetObjekt()
+        public RoomController(IRoomService roomService) { _roomService = roomService; }
+
+        [HttpGet("ListAll/{searchText?}")]
+        public IActionResult GetAllRooms(string searchText)
         {
-            return new OkObjectResult(_roomService.GetAll());
+            if (string.IsNullOrEmpty(searchText))
+            {
+                return new OkObjectResult(_roomService.GetAll());
+            }
+            else
+            {
+                var searchingList = _roomService.GetAll().Where(room => room.RaumName.ToLower().Contains(searchText.ToLower())).ToList();
+
+                if (searchingList.Any())
+                {
+                    return new OkObjectResult(searchingList);//200 with data
+                }
+                else
+                {
+                    return new NoContentResult();//204
+                }
+            }
         }
 
-        public RoomController(IRoomService roomService)
-        {
 
-            _roomService = roomService;
-        }
+
     }
 }

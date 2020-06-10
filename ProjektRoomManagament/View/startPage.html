@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Room Management</title>
 </head>
 <body>
@@ -10,7 +10,7 @@
     <table id="header">
         <tr>
             <td><h1 id="title">Room Management</h1></td>
-            <td><input id="searchbar" type="text" placeholder="Search.."></td>
+            <td><input id="searchbar" type="text" placeholder="Search.." onkeyup="loadRooms()"></td>
         </tr>
     </table>
 
@@ -20,13 +20,38 @@
     </div>
 
     <!-- rooms -->
-    <div class="roomBox">
-        <table>
-            <tr><td><a id="roomName"></a></td></tr>
-            <tr><td><a>Plätze: </a><a id="seats"></a></td></tr>
-            <tr><td><a>Preis: </a><a id="price"></a></td></tr>
-            <tr><td><button class="infoButton" type="button">Info</button></td></tr>
-        </table>
+
+    <div id="MeineRaeume">
+        <!--
+            <div id="roomBox">
+
+                <div class='roomBox'>
+                    <table id='rooms'>
+                        <thead>
+                            <tr>
+                                <th scope='col'>Name</th>
+                                <th scope='col'>Plätze</th>
+                                <th scope='col'>Kosten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nikolas Raum</td>
+                                <td>69</td>
+                                <td>zu teuer</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+             </div>
+            -->
     </div>
+    <script src='./js/jquery-3.4.1.min.js'></script>
+    <script src='./js/bootstrap.min.js'></script>
+    <script src='./js/js.cookie.js'></script>
+    <script src='./js/util.js'></script>
+
+    <script src='./js/RoomController.js'></script>
 </body>
 </html>
