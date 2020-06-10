@@ -20,48 +20,15 @@
     </div>
 
     <!-- rooms -->
-
     <div id="MeineRaeume">
-        <!--
-            <div id="roomBox">
-
-                <div class='roomBox'>
-                    <table id='rooms'>
-                        <thead>
-                            <tr>
-                                <th scope='col'>Name</th>
-                                <th scope='col'>Plätze</th>
-                                <th scope='col'>Kosten</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nikolas Raum</td>
-                                <td>69</td>
-                                <td>zu teuer</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-             </div>
-            -->
+        <!-- Hier werden die Räume vom ViewController geladen -->
     </div>
+
     <script src='./js/jquery-3.4.1.min.js'></script>
     <script src='./js/bootstrap.min.js'></script>
     <script src='./js/js.cookie.js'></script>
     <script src='./js/util.js'></script>
 
-    <script src='./js/RoomController.js'></script>
-    <form action="infoPage.html">
-        <div class="roomBox" id="rooms">
-            <table>
-                <tr><td><a id="roomName"></a></td></tr>
-                <tr><td><a>Plätze: </a><a id="seats"></a></td></tr>
-                <tr><td><a>Preis: </a><a id="price"></a></td></tr>
-                <tr><td><button id="infoButton" type="submit">INFO</button></td></tr>
-            </table>
-        </div>
-    </form>
+    <script src='./js/BookListViewController.js'></script>
 </body>
 </html>

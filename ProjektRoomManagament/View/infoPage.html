@@ -20,9 +20,9 @@
         <a href="agbPage.html">AGB</a>
     </div>
 
-    <!-- room info -->
-    <div class="roomInfo">
-        <table id="roomInfo">
+        <!-- room info -->
+    <div class="roomInfo" id="pasteRaum">
+           <table id="roomInfo">
             <tr>
                 <td><a id="roomName"></a></td>
                 <td><button id="backButton" type="button" onclick="goBack()">BACK</button></td>
@@ -37,15 +37,16 @@
         </table>
     </div>
 
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+        <script src='./js/jquery-3.4.1.min.js'></script>
+        <script src='./js/bootstrap.min.js'></script>
+        <script src='./js/js.cookie.js'></script>
+        <script src='./js/util.js'></script>
 
-    <script src='./js/jquery-3.4.1.min.js'></script>
-    <script src='./js/bootstrap.min.js'></script>
-    <script src='./js/js.cookie.js'></script>
-    <script src='./js/util.js'></script>
-</body>
-</html>
+        <script src='./js/SingleBookViewController.js'></script>
+    </body>
+    </html>

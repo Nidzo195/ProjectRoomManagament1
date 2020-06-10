@@ -37,6 +37,20 @@ namespace ProjektRoomManagament.Controllers
             }
         }
 
+        [HttpGet("GetRoom/{roomId}")]
+        public IActionResult GetRoom(int roomId)
+        {
+            var room = _roomService.GetAll().FirstOrDefault(room => room.Id == roomId);
+            if (room != null)
+            {
+                return new OkObjectResult(room);
+            }
+            else
+            {
+                return new NoContentResult();
+            }
+        }
+
 
 
     }
