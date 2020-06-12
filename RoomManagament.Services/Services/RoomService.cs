@@ -14,5 +14,17 @@ namespace RoomManagament.Services.Services
             using (var dc = new RoomManagamentContext())
                 return dc.Room.ToList();
         }
+
+        public IEnumerable<Room> GetRoomContainingString(string searchText)
+        {
+            using (var dc = new RoomManagamentContext())
+                return dc.Room.ToList().Where(room => room.RaumName.ToLower().Contains(searchText.ToLower())).ToList();
+        }
+
+        public Room GetSpecificRoom(int roomId)
+        {
+            using (var dc = new RoomManagamentContext())
+                return dc.Room.ToList().Where(room => room.Id == roomId).FirstOrDefault();
+        }
     }
 }

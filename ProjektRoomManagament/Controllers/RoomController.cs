@@ -24,7 +24,7 @@ namespace ProjektRoomManagament.Controllers
             }
             else
             {
-                var searchingList = _roomService.GetAll().Where(room => room.RaumName.ToLower().Contains(searchText.ToLower())).ToList();
+                var searchingList = _roomService.GetRoomContainingString(searchText);
 
                 if (searchingList.Any())
                 {
@@ -40,7 +40,7 @@ namespace ProjektRoomManagament.Controllers
         [HttpGet("GetRoom/{roomId}")]
         public IActionResult GetRoom(int roomId)
         {
-            var room = _roomService.GetAll().FirstOrDefault(room => room.Id == roomId);
+            var room = _roomService.GetSpecificRoom(roomId);
             if (room != null)
             {
                 return new OkObjectResult(room);
@@ -50,7 +50,6 @@ namespace ProjektRoomManagament.Controllers
                 return new NoContentResult();
             }
         }
-
 
 
     }
