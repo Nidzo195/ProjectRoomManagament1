@@ -46,8 +46,8 @@ function showRooms(roomData) {
             tableData += "<div class='roomBox' id='rooms'>";
             tableData += "<table>'";
             tableData += "<tr><td><a>Datum:" + room.date + "</a><a id='date'></a></td></tr>";
-            tableData += "<tr><td><a>Zeit:" + room.timeStart + "</a><a id='timeStart'></a></td></tr>";
-            tableData += "<tr><td><a>Zeit:" + room.timeEnd + "</a><a id='timeEnd'></a></td></tr>";
+            tableData += "<tr><td><a>Zeit:" + room.start + "</a><a id='timeStart'></a></td></tr>";
+            tableData += "<tr><td><a>Zeit:" + room.end + "</a><a id='timeEnd'></a></td></tr>";
             tableData += "<tr><td><a>Name:" + room.raumName + "</a><a id='roomName'></a></td></tr>";
             tableData += "<tr><td><a>Plätze:" + room.organizer + "</a><a id='organizer'></a></td></tr>";
             tableData += "<tr><td><a>Preis:" + room.tel + ".-</a><a id='phoneNr'></a></td></tr>";
