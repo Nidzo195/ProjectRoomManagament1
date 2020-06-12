@@ -14,7 +14,7 @@
 /obj
 /ProjektRoomManagament/bin
 /RoomManagament.Services/bin
-/RoomManagament.Services/Model/RoomManagamentContext.cs
+./RoomManagament.Services/Model/RoomManagamentContext.cs
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
