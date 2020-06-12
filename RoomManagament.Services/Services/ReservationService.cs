@@ -1,4 +1,5 @@
-﻿using RoomManagament.Services.Extension;
+﻿using Microsoft.EntityFrameworkCore;
+using RoomManagament.Services.Extension;
 using RoomManagament.Services.Model;
 using RoomManagament.Services.Services.Interface;
 using System;
@@ -28,7 +29,8 @@ StartupExtension kleiner als hüt plus 7 tage
 
             using (var dc = new RoomManagamentContext())
             {
-                return dc.Reservation.ToList().Where(reservation => reservation.Start < dateTimeInSevenDays && reservation.Start > dateTimeNow && reservation.End > dateTimeNow).ToList();
+                var resList = dc.Reservation.Include(i => i.Event).Include(i => i.Room).ToList().Where(reservation => reservation.Start < dateTimeInSevenDays && reservation.Start > dateTimeNow && reservation.End > dateTimeNow).ToList();
+                return resList;
             }
         }
     }
