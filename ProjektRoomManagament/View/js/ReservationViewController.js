@@ -30,7 +30,7 @@ function loadRooms() {
     })
         .done(showRooms)
         .fail(function (xhr, status, errorThrown) {
-            $("#MeineRaeume").text("Fehler beim Lesen der Räume.    HTTP error code: " + xhr.status);
+            $("#reservationList").text("Fehler beim Lesen der Räume.    HTTP error code: " + xhr.status);
         })
 }
 
@@ -45,12 +45,13 @@ function showRooms(roomData) {
         $.each(roomData, function (id, room) {
             tableData += "<div class='roomBox' id='rooms'>";
             tableData += "<table>'";
-            tableData += "<tr><td><a>Datum:" + room.start.substring(0, 9) + "</a><a id='date'></a></td></tr>";
-            tableData += "<tr><td><a>Zeit:" + room.start + "</a><a id='timeStart'></a></td></tr>";
-            tableData += "<tr><td><a>Zeit:" + room.end + "</a><a id='timeEnd'></a></td></tr>";
+            tableData += "<tr><td><a>Startdatum:" + room.start.substring(0, 9) + "</a><a id='dateStart'></a></td></tr>";
+            tableData += "<tr><td><a>Startzeit:" + room.start.substring(10, 14) + "</a><a id='timeStart'></a></td></tr>";
+            tableData += "<tr><td><a>Enddatum:" + room.end.substring(0, 9) + "</a><a id='dateEnd'></a></td></tr>";
+            tableData += "<tr><td><a>Endzeit:" + room.end.substring(10, 14) + "</a><a id='timeEnd'></a></td></tr>";
             tableData += "<tr><td><a>Name:" + room.raumName + "</a><a id='roomName'></a></td></tr>";
-            tableData += "<tr><td><a>Plätze:" + room.organizer + "</a><a id='organizer'></a></td></tr>";
-            tableData += "<tr><td><a>Preis:" + room.tel + ".-</a><a id='phoneNr'></a></td></tr>";
+            tableData += "<tr><td><a>Veranstalter:" + room.veranstalter + "</a><a id='organizer'></a></td></tr>";
+            tableData += "<tr><td><a>Telefonnummer:" + room.telefonnummer + ".-</a><a id='phoneNr'></a></td></tr>";
             tableData += "</table>";
             tableData += "</div>";
         });
