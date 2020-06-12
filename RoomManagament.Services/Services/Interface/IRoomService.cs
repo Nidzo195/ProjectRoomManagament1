@@ -8,5 +8,8 @@ namespace RoomManagament.Services.Services.Interface
     public interface IRoomService
     {
         IEnumerable<Room> GetAll();
+        Room GetSpecificRoom(int roomId);
+        IEnumerable<Room> GetRoomContainingString(string searchText);
+
     }
 }
