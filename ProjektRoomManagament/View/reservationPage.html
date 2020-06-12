@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Room Reservations</title>
+</head>
+<body>
+    <!-- header + navbar-->
+    <table id="header">
+        <tr>
+            <td><h1 id="title">Room Management</h1></td>
+            <td><input id="searchbar" type="text" placeholder="Search.."></td>
+        </tr>
+    </table>
+
+    <div class="topnav">
+        <a href="startPage.html">Home</a>
+        <a href="agbPage.html">AGB</a>
+        <a class="active" href="reservationPage.html">Reservationen</a>
+    </div>
+
+    <!-- reservations -->
+        <div class="reservationBox" id="reservationList">
+            <table id="reservation">
+                <tr>
+                    <td><a>Datum: </a><a id="date"></a></td>
+                    <td><a>Zeit: </a><a id="timeStart"></a><a> - </a><a id="timeEnd"></a></td>
+                </tr>
+                <tr><td><a id="roomName"></a></td></tr>
+                <tr><td><a>Veranstalter:</a></td></tr>
+                <tr>
+                    <td><a id="organizer"></a></td>
+                    <td><a id="phoneNr"></a></td>
+                </tr>
+            </table>
+        </div>
+</body>
+</html>
