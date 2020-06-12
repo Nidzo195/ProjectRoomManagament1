@@ -12,7 +12,9 @@ namespace RoomManagament.Services.Extension
         public static IServiceCollection AddServiceExtension(this IServiceCollection services)
         {
             services
-                .AddScoped<IRoomService, RoomService>();
+                .AddScoped<IRoomService, RoomService>(); 
+            services
+                 .AddScoped<IReservationService, ReservationService>();
 
             return services;
         }
