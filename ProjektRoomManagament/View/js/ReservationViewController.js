@@ -45,7 +45,7 @@ function showRooms(roomData) {
         $.each(roomData, function (id, room) {
             tableData += "<div class='roomBox' id='rooms'>";
             tableData += "<table>'";
-            tableData += "<tr><td><a>Datum:" + room.date + "</a><a id='date'></a></td></tr>";
+            tableData += "<tr><td><a>Datum:" + room.start.substring(0, 9) + "</a><a id='date'></a></td></tr>";
             tableData += "<tr><td><a>Zeit:" + room.start + "</a><a id='timeStart'></a></td></tr>";
             tableData += "<tr><td><a>Zeit:" + room.end + "</a><a id='timeEnd'></a></td></tr>";
             tableData += "<tr><td><a>Name:" + room.raumName + "</a><a id='roomName'></a></td></tr>";
@@ -54,9 +54,9 @@ function showRooms(roomData) {
             tableData += "</table>";
             tableData += "</div>";
         });
-        $("#MeineRaeume").html(tableData);
+        $("#reservationList").html(tableData);
     } else {
-        $("#MeineRaeume").html("Keine Räume gefunden");
+        $("#reservationList").html("Keine Räume gefunden");
     }
 
 }
