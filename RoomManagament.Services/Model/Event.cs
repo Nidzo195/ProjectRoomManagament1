@@ -9,5 +9,6 @@ namespace RoomManagament.Services.Model
         public string Titel { get; set; }
         public string Beschreibung { get; set; }
         public string Organiser { get; set; }
+        public string Telefonnummer { get; set; }
     }
 }
