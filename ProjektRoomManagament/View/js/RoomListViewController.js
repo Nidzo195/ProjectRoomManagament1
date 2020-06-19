@@ -43,7 +43,7 @@ function showRooms(roomData) {
 
         $.each(roomData, function (id, room) {
             tableData += "<div class='roomBox' id='rooms'>";
-            tableData += "<table>'";
+            tableData += "<table>";
             tableData += "<tr><td><a>Name:" + room.raumName + "</a><a id='roomName'></a></td></tr>";
             tableData += "<tr><td><a>Plätze:" + room.anzahlPlaetze + "</a><a id='seats'></a></td></tr>";
             tableData += "<tr><td><a>Preis:" + room.kosten + ".-</a><a id='price'></a></td></tr>";
