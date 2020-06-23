@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <None Remove="View\agbPage.html" />
-    <None Remove="View\js\ReservationViewController.js" />
     <None Remove="View\RoomController.js" />
     <None Remove="View\startPage.html" />
     <None Remove="View\style.css" />
@@ -27,9 +26,6 @@
 
   <ItemGroup>
     <EmbeddedResource Include="View\agbPage.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\js\ReservationViewController.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="View\js\RoomListViewController.js">
