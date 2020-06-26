@@ -118,3 +118,25 @@
     width: 80%;
     color: #727478;
 }
+
+#wraper {
+    width: 100%;
+    
+}
+
+#reservationForm {
+    margin: auto;
+    width: 50%;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.reservationTable {
+    margin-top: 50px;
+    width: 85%;
+    border-spacing: 0 15px;
+}
+
+#reservationTitle {
+    font-family:Arial;
+}

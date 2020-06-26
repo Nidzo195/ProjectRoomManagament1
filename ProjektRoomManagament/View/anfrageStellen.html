@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Room Reservation</title>
+    <script>
+        /**
+         * View for reservation
+         *
+         * M426: Anfrage stellen
+         *
+         * @author  Nina Hagenbucher
+         * @since   2020-06-26
+         * @version 1.0
+         */
+
+
+         //funktion um anzuzeigen ob die Reservierung gelungen ist
+        function success() {
+                alert("Ihre Reservierung war erfolgreich.");
+        }
+
+    </script>
+</head>
+<body>
+    <!-- header + navbar-->
+    <table id="header">
+        <tr>
+            <td><h1 id="title">Room Management</h1></td>
+            <td><input id="searchbar" type="text" placeholder="Search.."></td>
+        </tr>
+    </table>
+
+    <div class="topnav">
+        <a href="startPage.html">Home</a>
+        <a href="agbPage.html">AGB</a>
+        <a href="reservationPage.html">Reservationen</a>
+        <a class="active" href="anfrageStellen.html">Raum reservieren</a>
+    </div>
+
+    <!-- Anfrage Form -->
+    <div id="wrap">
+        <div id="reservationForm">
+            
+            <form action="">
+                <h1 id="reservationTitle">Raum reservieren</h1>
+                <table id="reservation" class="reservationTable">
+                    <tr>
+                        <td>
+                            <label for="company">Firmenname:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="company" name="company">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date">Datum:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="date" name="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="time">Zeit:</label>
+                        </td>
+                        <td>
+                            <input type="time" id="time" name="time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="seats">Anz. Plätze:</label>
+                        </td>
+                        <td>
+                            <select name="seats">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="rooms">Räume:</label>
+
+                        </td>
+                        <td>
+                            <select id="rooms">
+                                <option>Room150</option>
+                                <option>Room67</option>
+                                <option>Room2</option>
+                                <option>Room30</option>
+                                <option>Room23</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input style="height: 35px; width:100px;" type="submit" value="Reservieren" onclick="success()">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
