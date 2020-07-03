@@ -19,7 +19,6 @@ $(document).ready(function () {
 
 /**
  * loads room data from server
- * @param form the form with the data
  */
 function loadRooms() {
     var searchString = $("#searchbar").val()
@@ -33,6 +32,11 @@ function loadRooms() {
             $("#MeineRaeume").text("Fehler beim Lesen der Räume.    HTTP error code: " + xhr.status);
         })
 }
+
+/**
+ * inserts Data in HTML Table
+ * @param roomData 
+ */
 
 function showRooms(roomData) {
 
