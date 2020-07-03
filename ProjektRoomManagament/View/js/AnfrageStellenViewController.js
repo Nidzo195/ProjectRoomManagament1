@@ -3,7 +3,7 @@
  *
  * M426: Reservation List
  *
- * @author  Nina Hagenbucher
+ * @author  Nina Hagenbucher, Nikola Matovic
  * @since   2020-06-16
  * @version 1.0
  */
@@ -23,7 +23,9 @@ $(document).ready(function () {
 });
 
 
-
+/**
+ * gets the data from the server
+ */
 function loadComboBox() {
 
     var searchString = $("#searchbar").val()
@@ -38,6 +40,17 @@ function loadComboBox() {
         })
 }
 
+/**
+* alert successfull saved room
+ */
+function saveRooom(form) {
+    alert("Raum wurde Erfolgreich gespeichert");
+}
+
+
+/**
+ * fills the combobox with the rooms
+ */
 function fillComboBox(roomData) {
 
     $("#rooms").html("");
@@ -68,10 +81,9 @@ function saveRoom(form) {
             data: data,
         })
         .done(function (jsonData) {
-            alert("Raum wurde Erfolgreich gespeichert");
-            location.reload();
         })
         .fail(function (xhr, status, errorThrown) {
             $("#error").text("Fehler beim Speichern des Raumes. HTTP error code: " + xhr.status);
         })
+    alert("Raum wurde Erfolgreich gespeichert");
 }
