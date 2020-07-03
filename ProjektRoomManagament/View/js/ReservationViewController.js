@@ -49,9 +49,9 @@ function showRooms(roomData) {
             tableData += "<table class='reservationBox' id='reservation'>";
             tableData += "<tr><td><a>" + room.event.titel +" </a> <a id='roomName'></a></tr></td>";
             tableData += "<tr><td><a> Datum: " + room.start.substring(0, 10) +"</a><a id='dateStart'></a>";
-            tableData += "<a> Zeit:  " + room.start.substring(14, 19) + "</a> <a id='timeStart'></a></tr></td>" ;
-            tableData += "<tr><td><a> Datum:  " + room.end.substring(0, 10) + "</a> <a id='dateEnd'></a>";
-            tableData += "<a>   " + room.end.substring(14, 19) + "</a> <a id='timeEnd'></a></td></tr>";
+            tableData += "<a>&nbsp;Zeit:&nbsp;" + room.start.substring(14, 19) + "</a> <a id='timeStart'></a></tr></td>" ;
+            tableData += "<tr><td><a> Datum: " + room.end.substring(0, 10) + "</a> <a id='dateEnd'></a>";
+            tableData += "<a>&nbsp;Zeit:&nbsp;" + room.end.substring(14, 19) + "</a> <a id='timeEnd'></a></td></tr>";
             tableData += "<tr><td><a>Veranstalter: " + room.event.organiser + "</a> <a id='organizer'> </a></tr></td>";
             tableData += "<tr><td><a>Telefonnummer: " + room.event.telefonnummer + "</a> <a id='organizer'> </a></tr></td>";
             tableData += "</table>";

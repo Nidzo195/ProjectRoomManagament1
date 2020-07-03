@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProjektRoomManagament.Controllers.TempModel
 {
+ /// <summary>
+ /// Modell für Anfrage stellen fromular
+ /// </summary>
     public class TempAnfrage
     {
 
