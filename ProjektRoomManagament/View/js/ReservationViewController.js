@@ -47,13 +47,13 @@ function showRooms(roomData) {
         $.each(roomData, function (id, room) {
             tableData += "<div id='reservation'>";
             tableData += "<table class='reservationBox' id='reservation'>";
-            tableData += "<tr><td><a>" + room.raumName +" </a> <a id='roomName'></a>";
+            tableData += "<tr><td><a>" + room.event.titel +" </a> <a id='roomName'></a>";
             tableData += "<a> Datum: " + room.start.substring(0, 10) +"</a> <a id='dateStart'></a>";
             tableData += "<a>   " + room.start.substring(14, 19) + "</a> <a id='timeStart'>-</a>" ;
             tableData += "<a>   " + room.end.substring(0, 10) + "</a> <a id='dateEnd'></a>    ";
             tableData += "<a>   " + room.end.substring(14, 19) + "</a> <a id='timeEnd'></a></td></tr>";
-            tableData += "<tr><td><a>Veranstalter: " + room.veranstalter + "</a> <a id='organizer'> </a>";
-            tableData += "<a>" + room.telefonnummer + "</a><a id='phoneNr'></a></td></tr>";
+            tableData += "<tr><td><a>Veranstalter: " + room.event.organiser + "</a> <a id='organizer'> </a>";
+            tableData += "<tr><td><a>Telefonnummer: " + room.event.telefonnummer + "</a> <a id='organizer'> </a>";
             tableData += "</table>";
             tableData += "</div>";
         });

@@ -140,3 +140,7 @@
 #reservationTitle {
     font-family:Arial;
 }
+
+.time {
+    margin-left: -250px;
+}

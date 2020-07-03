@@ -29,7 +29,8 @@ StartupExtension kleiner als hüt plus 7 tage
 
             using (var dc = new RoomManagamentContext())
             {
-                var resList = dc.Reservation.Include(i => i.Event).Include(i => i.Room).ToList().Where(reservation => reservation.Start < dateTimeInSevenDays && reservation.Start > dateTimeNow && reservation.End > dateTimeNow).ToList();
+                var x = dc.Reservation.ToList();
+                var resList = dc.Reservation.Include(i => i.Event).Include(i => i.Room).ToList().Where(reservation => reservation.Start < dateTimeInSevenDays && reservation.Start > dateTimeNow && reservation.End > dateTimeNow).ToList().OrderBy(i => i.Start);
                 return resList;
             }
         }
