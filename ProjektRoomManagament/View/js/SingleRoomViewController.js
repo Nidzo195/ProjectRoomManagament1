@@ -4,7 +4,10 @@
 });
 
 
-
+/**
+ * loads room data from server
+ * @param roomID the form with the data
+ */
 
 function showInfo(roomId) {
     $.ajax({
@@ -18,6 +21,10 @@ function showInfo(roomId) {
         })
 }
 
+/**
+ * inserts Datan in HTML Table
+ * @param singleRoom the form with the data
+ */
 
 function showSingleRoom(singleRoom) {
 
@@ -45,6 +52,10 @@ function showSingleRoom(singleRoom) {
     }
 
 }
+
+/**
+ * for returning to startpage
+ */
 
 function goBack() {
     window.location.href = "startPage.html";
