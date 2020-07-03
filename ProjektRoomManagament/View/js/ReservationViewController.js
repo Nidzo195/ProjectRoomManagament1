@@ -40,7 +40,6 @@ function loadRooms() {
 function showRooms(roomData) {
 
     if (typeof roomData !== 'undefined') {
-        //Todo: datum formatieren und substring richtig machen
         var tableData = "";
         $("#reservationList").html("");
 
@@ -65,6 +64,10 @@ function showRooms(roomData) {
 
 }
 
+/**
+ * link to infopage
+ * @param roomId the form with the data
+ */
 function goToInfoPage(roomId) {
     window.location.href = "infoPage.html?roomId="+roomId;
 }
